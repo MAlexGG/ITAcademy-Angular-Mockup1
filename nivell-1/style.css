@@ -140,3 +140,31 @@ footer {
     margin: 1.2em;
     padding: 0.6em;
 }
+
+@media only screen and (max-width: 800px) {
+    header,
+    main,
+    footer {
+        max-width: 768px;
+    }
+    main {
+        background-color: yellow;
+        flex-direction: column;
+    }
+    .it-first-two {
+        margin: 0em 1.2em;
+    }
+    .it-third-one,
+    .it-third-two {
+        width: 336px;
+    }
+    .it-third-three,
+    .it-fourth-one,
+    .it-fourth-two {
+        width: 692px;
+    }
+    .ct-fourth {
+        height: auto;
+        margin: 0em 1.2em 1.2em 1.2em;
+    }
+}
