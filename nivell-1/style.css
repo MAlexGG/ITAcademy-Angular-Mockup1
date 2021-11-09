@@ -142,7 +142,10 @@ footer {
     padding: 0.6em;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 992px) {
+    body {
+        justify-content: start;
+    }
     header,
     main,
     footer {
@@ -167,5 +170,37 @@ footer {
     .ct-fourth {
         height: auto;
         margin: 0em 1.2em 1.2em 1.2em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        justify-content: start;
+    }
+    header,
+    main,
+    footer {
+        max-width: 245px;
+    }
+    .ct-first {
+        flex-direction: column;
+    }
+    .it-first-two {
+        width: 170px;
+        margin: 1.2em;
+    }
+    .ct-it-third {
+        flex-direction: column;
+        padding-top: 1.2em;
+    }
+    .it-third-one,
+    .it-third-two {
+        width: 170px;
+        margin: 0em 1.2em 1.2em 1.2em;
+    }
+    .it-third-three,
+    .it-fourth-one,
+    .it-fourth-two {
+        width: 170px;
     }
 }
