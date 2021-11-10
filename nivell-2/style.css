@@ -131,10 +131,20 @@ main {
     overflow: hidden;
     height: 11em;
     width: 24em;
+    position: relative;
 }
 
 .img-article {
     width: 100%;
+}
+
+.txt-date-article {
+    font-family: 'Roboto', sans-serif;
+    color: #F0E68C;
+    position: absolute;
+    font-size: 1rem;
+    bottom: 0px;
+    margin: 0em 0em 0em 0.5em;
 }
 
 .ct-txt-title {
