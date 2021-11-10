@@ -66,6 +66,12 @@ header {
     margin-left: 5%;
 }
 
+.nav-buttons:hover,
+.fa-facebook-square:hover,
+.fa-twitter:hover {
+    filter: invert(64%) sepia(40%) saturate(568%) hue-rotate(327deg) brightness(102%) contrast(91%);
+}
+
 .txt-nav {
     margin: 0% 0% 0% 5%;
 }
