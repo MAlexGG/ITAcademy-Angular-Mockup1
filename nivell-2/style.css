@@ -98,11 +98,8 @@ header {
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #000000;
     max-width: 1200px;
-    width: 100%;
-    margin: 0.5em 0em 0.5em 0em;
+    margin-top: 0.5em;
 }
 
 .ct-third {
@@ -110,8 +107,9 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 1.2em;
-    background-color: #44465E;
+    margin-right: 1em;
+    background-color: #D8D7D7;
+    width: 51em;
 }
 
 .ct-it-third {
@@ -119,24 +117,67 @@ main {
 }
 
 .it-third-one {
-    width: 349px;
-    height: 21px;
-    background-color: #1664A4;
-    margin: 1.2em 0.6em 1.2em 1.2em;
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+    height: 29em;
+    background-color: white;
+    margin: 0.5em 0.25em 0.5em 0.5em;
+    padding: 0.5em;
+}
+
+.ct-img-article {
+    object-fit: contain;
+    overflow: hidden;
+    height: 11em;
+    width: 24em;
+}
+
+.img-article {
+    width: 100%;
+}
+
+.ct-txt-title {
+    display: flex;
+    align-items: end;
+    background-color: #F08080;
+    width: 100%;
+    height: 11%;
+    margin: 0.25em 0em 0em 0em;
+}
+
+.txt-title-article {
+    margin: 0.25em 0em 0em 0em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    padding: 0em 0em 0em .25em;
+    margin: 0px;
+}
+
+.txt-article {
+    font-family: 'Roboto', sans-serif;
+    column-count: 2;
+    color: #808080;
+}
+
+.a-article {
+    color: gray;
+    text-decoration: none;
 }
 
 .it-third-two {
-    width: 349px;
-    height: 21px;
-    background-color: #1664A4;
-    margin: 1.2em 1.2em 1.2em 0.6em;
+    width: 24em;
+    height: 28em;
+    background-color: white;
+    margin: 1em 1em 1em 0.5em;
 }
 
 .it-third-three {
-    width: 717px;
+    width: 49.2em;
     height: 21px;
     background-color: #6399BB;
-    margin: 0em 1.2em 1.2em 1.2em;
+    margin: 0em 1em 1em 1em;
 }
 
 .ct-fourth {
@@ -144,20 +185,20 @@ main {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    height: 139px;
-    margin: 1.2em 1.2em 1.2em 0em;
+    height: auto;
+    margin: 0em;
     background-color: #F94C47;
 }
 
 .it-fourth-one {
-    width: 349px;
+    width: 15.5em;
     height: 21px;
     background-color: #FFE380;
     margin: 1.2em 1.2em 0.3em 1.2em;
 }
 
 .it-fourth-two {
-    width: 349px;
+    width: 15.5em;
     height: 21px;
     background-color: #FFE380;
     margin: 0.3em 1.2em 1.2em 1.2em;
