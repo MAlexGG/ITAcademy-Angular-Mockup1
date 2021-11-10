@@ -109,7 +109,7 @@ main {
     align-items: center;
     margin-right: 1em;
     background-color: #D8D7D7;
-    width: 51em;
+    width: 51.5em;
 }
 
 .ct-it-third {
@@ -167,10 +167,13 @@ main {
 }
 
 .it-third-two {
+    display: flex;
+    flex-direction: column;
     width: 24em;
-    height: 28em;
+    height: 29em;
     background-color: white;
-    margin: 1em 1em 1em 0.5em;
+    margin: 0.5em 0.5em 0.5em 0.25em;
+    padding: 0.5em;
 }
 
 .it-third-three {
