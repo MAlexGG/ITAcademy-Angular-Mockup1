@@ -64,6 +64,7 @@ header {
     color: #808080;
     list-style: none;
     margin-left: 5%;
+    cursor: pointer;
 }
 
 .nav-buttons:hover,
@@ -169,6 +170,7 @@ main {
     font-family: 'Roboto', sans-serif;
     column-count: 2;
     color: #808080;
+    font-size: 1rem;
 }
 
 .a-article {
@@ -187,10 +189,13 @@ main {
 }
 
 .it-third-three {
-    width: 49.2em;
-    height: 21px;
-    background-color: #6399BB;
-    margin: 0em 1em 1em 1em;
+    width: 51em;
+    margin: 0em 0.5em 0.5em 0.5em;
+}
+
+.txt-article-bottom {
+    text-align: center;
+    margin: 0em;
 }
 
 .ct-fourth {
@@ -200,34 +205,49 @@ main {
     align-items: center;
     height: auto;
     margin: 0em;
-    background-color: #F94C47;
+    background-color: #D8D7D7;
 }
 
 .it-fourth-one {
     width: 15.5em;
-    height: 21px;
-    background-color: #FFE380;
     margin: 1.2em 1.2em 0.3em 1.2em;
+}
+
+.txt-title-aside {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0em;
+}
+
+.txt-aside {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .it-fourth-two {
     width: 15.5em;
-    height: 21px;
-    background-color: #FFE380;
     margin: 0.3em 1.2em 1.2em 1.2em;
 }
 
 footer {
-    background-color: #000000;
+    background-color: #F5F1F1;
     max-width: 1200px;
     width: 100%;
     margin: 0.5em 0em 0.5em 0em;
 }
 
 .ct-fifth {
-    background-color: #E4A434;
-    margin: 1.2em;
     padding: 0.6em;
+    border-left: 0.5em solid #D8D7D7;
+    border-right: 0.5em solid #D8D7D7;
+}
+
+.txt-footer {
+    margin: 0em;
+    text-align: center;
+    color: #808080;
 }
 
 @media only screen and (max-width: 992px) {
@@ -246,14 +266,22 @@ footer {
     .it-first-two {
         margin: 0em 1.2em;
     }
+    .ct-third {
+        width: 48em;
+        justify-content: center;
+    }
     .it-third-one,
     .it-third-two {
-        width: 336px;
+        width: 21em;
+    }
+    .ct-img-article {
+        width: 21rem;
+        height: 8rem;
     }
     .it-third-three,
     .it-fourth-one,
     .it-fourth-two {
-        width: 692px;
+        width: 14.5em;
     }
     .ct-fourth {
         height: auto;
@@ -270,12 +298,21 @@ footer {
     footer {
         max-width: 245px;
     }
+    .nav-buttons {
+        flex-direction: column;
+        font-size: 0.5rem;
+        align-items: center;
+    }
     .ct-first {
         flex-direction: column;
     }
     .it-first-two {
-        width: 170px;
-        margin: 1.2em;
+        width: 12em;
+        padding: 0em;
+        margin: 0.5em;
+    }
+    .ct-third {
+        width: 15.5em;
     }
     .ct-it-third {
         flex-direction: column;
@@ -283,12 +320,22 @@ footer {
     }
     .it-third-one,
     .it-third-two {
-        width: 170px;
+        width: 12em;
         margin: 0em 1.2em 1.2em 1.2em;
+    }
+    .ct-img-article {
+        width: 12rem;
+        height: 8rem;
+    }
+    .txt-title-article {
+        font-size: 1.2rem;
+    }
+    .txt-article {
+        font-size: 0.7rem;
     }
     .it-third-three,
     .it-fourth-one,
     .it-fourth-two {
-        width: 170px;
+        width: 14em;
     }
 }
