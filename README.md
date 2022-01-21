@@ -1,1 +1,1 @@
-# ITAcademy-Angular-Mockup1
+# ITAcademy-React-Mockup1
